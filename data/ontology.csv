@@ -1,0 +1,36 @@
+ID,EDGE_TYPE,HEAD_ENTITY,TAIL_ENTITY
+1,SubclassOf,organism,entity
+2,SubclassOf,plant,organism
+3,SubclassOf,hemlock,plant
+4,SubclassOf,tree,plant
+5,SubclassOf,seaweed,plant
+6,SubclassOf,sequoia tree,tree
+7,SubclassOf,animal,organism
+8,SubclassOf,chicken,animal
+9,SubclassOf,sea animal,animal
+10,SubclassOf,mammal,animal
+11,SubclassOf,killer whale,mammal
+12,SubclassOf,killer whale,sea animal
+13,SubclassOf,pufferfish,sea animal
+14,SubclassOf,dog,mammal
+15,SubclassOf,performing animal,animal
+16,InstanceOf,the hemlock that Socrates consumed,hemlock
+17,InstanceOf,General Sherman,sequoia tree
+18,InstanceOf,Ginger,chicken
+19,InstanceOf,Heihei,chicken
+20,InstanceOf,Springer,killer whale
+21,InstanceOf,Luna the Whale,killer whale
+22,InstanceOf,Keiko,killer whale
+23,InstanceOf,Keiko,performing animal
+24,InstanceOf,Lassie,dog
+25,InstanceOf,Greyfriars Bobby,dog
+26,InstanceOf,Uggie,dog
+27,InstanceOf,Uggie,performing animal
+28,InstanceOf,Clifford the Big Red Dog,animal
+29,HasAttribute,dog,four-legged
+30,HasAttribute,Greyfriars Bobby,loyal
+31,HasAttribute,hemlock,poisonous
+32,HasAttribute,pufferfish,poisonous
+33,HasAttribute,Heihei,accident-prone
+34,HasAttribute,sea animal,aquatic
+35,HasAttribute,mammal,warm-blooded

@@ -1,0 +1,480 @@
+ID,EDGE_TYPE,HEAD_ENTITY,TAIL_ENTITY
+1,InstanceOf,grenadine,drink
+2,SubclassOf,alphorn,musical instrument
+3,InstanceOf,naan,food
+4,HasAttribute,naan,Indian
+5,InstanceOf,Sangria,drink
+6,InstanceOf,Antarctic continent,geographic region
+7,InstanceOf,IMAX,product
+8,InstanceOf,Sopwith Camel,animal
+9,SubclassOf,Sherry,drink
+10,InstanceOf,mashed potato,food
+11,HasAttribute,mashed potato,creamy
+12,InstanceOf,Amontillado,Sherry
+13,InstanceOf,Korea,geographic region
+14,InstanceOf,Mickey,animal
+15,SubclassOf,otter,animal
+16,SubclassOf,Manzanilla,Sherry
+17,SubclassOf,jam,food
+18,SubclassOf,Eurasian otter,otter
+19,SubclassOf,strawberry jam,jam
+20,InstanceOf,Central Asia,geographic region
+21,SubclassOf,river otter,otter
+22,InstanceOf,Polynesia,geographic region
+23,InstanceOf,North Caucasus,geographic region
+24,InstanceOf,Middle East,geographic region
+25,InstanceOf,Indian subcontinent,geographic region
+26,InstanceOf,Holland,geographic region
+27,InstanceOf,olive oil,food
+28,SubclassOf,mare,animal
+29,InstanceOf,buttermilk,drink
+30,SubclassOf,genet,animal
+31,SubclassOf,tapir,animal
+32,SubclassOf,lion,animal
+33,SubclassOf,blouse,product
+34,InstanceOf,Southwestern United States,geographic region
+35,SubclassOf,Tsavo Man-Eaters,lion
+36,InstanceOf,Pappy Van Winkle's Family Reserve,drink
+37,InstanceOf,Darien Gap,geographic region
+38,SubclassOf,pig,animal
+39,SubclassOf,boar,pig
+40,SubclassOf,dog,animal
+41,SubclassOf,garibaldi,blouse
+42,InstanceOf,Corn Belt,geographic region
+43,SubclassOf,guimpe,blouse
+44,SubclassOf,middy,blouse
+45,InstanceOf,sugarcane,product
+46,InstanceOf,Greater Boston,geographic region
+47,SubclassOf,note-pad,product
+48,InstanceOf,XXXX Gold,drink
+49,InstanceOf,sofrito,food
+50,InstanceOf,XXXX Bitter,drink
+51,InstanceOf,Hachikō,dog
+52,SubclassOf,spinet,musical instrument
+53,InstanceOf,scrod,food
+54,SubclassOf,journal,note-pad
+55,SubclassOf,daybook,journal
+56,SubclassOf,diary,journal
+57,SubclassOf,exercise book,note-pad
+58,SubclassOf,sketchbook,exercise book
+59,InstanceOf,Everclear,drink
+60,SubclassOf,commonplace book,note-pad
+61,SubclassOf,jotter,note-pad
+62,SubclassOf,playbook,note-pad
+63,InstanceOf,Johnnie Walker,product
+64,InstanceOf,cortado,drink
+65,SubclassOf,nails,consumables
+66,SubclassOf,piano,musical instrument
+67,SubclassOf,grand piano,piano
+68,SubclassOf,baby grand,grand piano
+69,SubclassOf,vodka,drink
+70,SubclassOf,concert piano,grand piano
+71,InstanceOf,Smirnoff,vodka
+72,SubclassOf,Pianola,piano
+73,InstanceOf,Laika,dog
+74,InstanceOf,Balto,dog
+75,SubclassOf,Stolichnaya,vodka
+76,SubclassOf,fast-moving consumer goods,consumables
+77,SubclassOf,trumpet,musical instrument
+78,InstanceOf,Curcuma longa,food
+79,SubclassOf,liqueur,drink
+80,SubclassOf,herb,food
+81,SubclassOf,Seven trumpets,trumpet
+82,InstanceOf,Sea-Monkeys,product
+83,SubclassOf,amaro,liqueur
+84,SubclassOf,Campari,amaro
+85,SubclassOf,germander,herb
+86,SubclassOf,spinach,herb
+87,SubclassOf,Fernet-Branca,Fernet
+88,SubclassOf,tarragon,herb
+89,SubclassOf,Mentha spicata,herb
+90,SubclassOf,medicinal plant,herb
+91,SubclassOf,Chartreuse,liqueur
+92,HasAttribute,Chartreuse,aromatic
+93,SubclassOf,Baileys Irish Cream,Irish cream
+94,InstanceOf,Southeast Asia,geographic region
+95,InstanceOf,Jutland,geographic region
+96,InstanceOf,Allium sativum,food
+97,SubclassOf,upright piano,musical instrument
+98,InstanceOf,Moravia,geographic region
+99,InstanceOf,Blondi,dog
+100,SubclassOf,spinet,upright piano
+101,InstanceOf,petroleum,product
+102,InstanceOf,Silesia,geographic region
+103,InstanceOf,mochi,food
+104,SubclassOf,shale oil,unconventional oil
+105,InstanceOf,Macedonia,geographic region
+106,InstanceOf,arroz con pollo,food
+107,SubclassOf,hard seltzer,drink
+108,SubclassOf,White Claw Hard Seltzer,hard seltzer
+109,InstanceOf,dosa,food
+110,InstanceOf,Furikake,food
+111,InstanceOf,Fertile Crescent,geographic region
+112,InstanceOf,Livonia,geographic region
+113,SubclassOf,amaretto,drink
+114,SubclassOf,viola,musical instrument
+115,SubclassOf,Disaronno,amaretto
+116,HasAttribute,viola,instrumental
+117,SubclassOf,fruit drink,drink
+118,InstanceOf,Cassis,fruit drink
+119,SubclassOf,beer,drink
+120,InstanceOf,Guinness,beer
+121,SubclassOf,fricassee,food
+122,SubclassOf,chicken stew,fricassee
+123,SubclassOf,turkey stew,fricassee
+124,InstanceOf,Labrador,geographic region
+125,SubclassOf,tuba,musical instrument
+126,SubclassOf,acoustic guitar,acoustic musical instrument
+127,SubclassOf,puppy,dog
+128,SubclassOf,pooch,dog
+129,SubclassOf,cur,dog
+130,InstanceOf,Himachal Pradesh,geographic region
+131,SubclassOf,Feist,cur
+132,SubclassOf,pariah dog,cur
+133,InstanceOf,Caucasus,geographic region
+134,SubclassOf,companion dog,dog
+135,InstanceOf,mainland China,geographic region
+136,InstanceOf,Bermuda Triangle,geographic region
+137,SubclassOf,toy dog,dog
+138,SubclassOf,Chihuahua,toy dog
+139,InstanceOf,Bactria,geographic region
+140,SubclassOf,Japanese spaniel,toy dog
+141,InstanceOf,Land of Israel,geographic region
+142,SubclassOf,Maltese dog,toy dog
+143,SubclassOf,Pekinese,toy dog
+144,InstanceOf,Punjab,geographic region
+145,SubclassOf,Shih-Tzu,toy dog
+146,InstanceOf,Hejaz,geographic region
+147,SubclassOf,toy spaniel,toy dog
+148,SubclassOf,English toy spaniel,toy spaniel
+149,SubclassOf,Blenheim spaniel,English toy spaniel
+150,SubclassOf,King Charles spaniel,toy spaniel
+151,SubclassOf,papillon,toy spaniel
+152,InstanceOf,Sudetenland,geographic region
+153,SubclassOf,toy terrier,toy dog
+154,SubclassOf,hunting dog,dog
+155,InstanceOf,Cappadocia,geographic region
+156,SubclassOf,koto,traditional Japanese musical instrument
+157,InstanceOf,snuff,product
+158,InstanceOf,earplug,product
+159,SubclassOf,courser,hunting dog
+160,InstanceOf,WD-40,product
+161,SubclassOf,bloodhound,hunting dog
+162,SubclassOf,bird dog,hunting dog
+163,SubclassOf,beagle,hunting dog
+164,SubclassOf,working dog,dog
+165,InstanceOf,Research Triangle,geographic region
+166,SubclassOf,Newfoundland dog,working dog
+167,InstanceOf,Bo,working dog
+168,SubclassOf,watchdog,working dog
+169,SubclassOf,German Shepherd dog,watchdog
+170,InstanceOf,Borscht Belt,geographic region
+171,SubclassOf,kuvasz,watchdog
+172,SubclassOf,attack dog,watchdog
+173,SubclassOf,housedog,watchdog
+174,SubclassOf,schipperke,watchdog
+175,SubclassOf,pinscher,watchdog
+176,SubclassOf,Doberman,pinscher
+177,SubclassOf,miniature pinscher,pinscher
+178,SubclassOf,affenpinscher,pinscher
+179,InstanceOf,lentil soup,cream soup
+180,SubclassOf,police dog,service dog
+181,SubclassOf,coach dog,dog
+182,SubclassOf,liver-spotted dalmatian,coach dog
+183,SubclassOf,basenji,dog
+184,SubclassOf,killer whale,animal
+185,InstanceOf,Tilikum,killer whale
+186,SubclassOf,brown sugar,food
+187,SubclassOf,Demerara sugar,brown sugar
+188,SubclassOf,jaggery,natural cane sugar
+189,InstanceOf,Big Sur,geographic region
+190,InstanceOf,Kordofan,geographic region
+191,SubclassOf,mouse,animal
+192,SubclassOf,hedgehog,animal
+193,SubclassOf,bird,animal
+194,SubclassOf,Peregrine Falcon,bird
+195,InstanceOf,Tornado Alley,geographic region
+196,SubclassOf,Mallard,bird
+197,SubclassOf,raven,bird
+198,SubclassOf,cuckoo,bird
+199,SubclassOf,ani,cuckoo
+200,SubclassOf,black-billed cuckoo,cuckoo
+201,SubclassOf,roadrunner,cuckoo
+202,SubclassOf,European cuckoo,cuckoo
+203,SubclassOf,coucal,cuckoo
+204,SubclassOf,Centropus sinensis,coucal
+205,SubclassOf,pheasant cuckoo,coucal
+206,SubclassOf,touraco,bird
+207,InstanceOf,Inland Empire,geographic region
+208,SubclassOf,powdered sugar,food powder
+209,SubclassOf,summer squash,Squash
+210,SubclassOf,cocozelle,summer squash
+211,SubclassOf,poultry,domesticated bird
+212,SubclassOf,Spaghetti squash,summer squash
+213,InstanceOf,rooster,poultry
+214,SubclassOf,pattypan squash,summer squash
+215,SubclassOf,baking powder,food powder
+216,SubclassOf,zucchini,summer squash
+217,SubclassOf,marrow,zucchini
+218,SubclassOf,yellow squash,summer squash
+219,SubclassOf,summer crookneck,yellow squash
+220,SubclassOf,Columba livia domestica,poultry
+221,SubclassOf,winter squash,Squash
+222,SubclassOf,curry powder,food powder
+223,SubclassOf,cushaw,winter squash
+224,SubclassOf,butternut squash,winter squash
+225,SubclassOf,pumpkin,winter squash
+226,SubclassOf,acorn squash,winter squash
+227,SubclassOf,gourd,winter squash
+228,SubclassOf,turban squash,winter squash
+229,SubclassOf,buttercup squash,turban squash
+230,SubclassOf,winter crookneck squash,winter squash
+231,SubclassOf,hubbard squash,winter squash
+232,SubclassOf,tea leaf,non-alcoholic beverage
+233,SubclassOf,chicken,poultry
+234,SubclassOf,oolong,tea leaf
+235,SubclassOf,goose,domesticated bird
+236,InstanceOf,Masala chai,milk tea
+237,SubclassOf,bubble tea,milk tea
+238,SubclassOf,gull,seabird
+239,InstanceOf,mung,food
+240,SubclassOf,human,animal
+241,SubclassOf,coffee,non-alcoholic beverage
+242,InstanceOf,dulce de leche,food
+243,SubclassOf,drip coffee,coffee
+244,SubclassOf,lemonade,non-alcoholic beverage
+245,SubclassOf,marmalade,fruit preserves
+246,SubclassOf,7 Up,lemonade
+247,SubclassOf,baggage,product
+248,SubclassOf,atole,non-alcoholic beverage
+249,SubclassOf,orange marmalade,marmalade
+250,SubclassOf,bag,baggage
+251,SubclassOf,maraschino,fruit preserves
+252,SubclassOf,carpetbag,bag
+253,SubclassOf,garment bag,bag
+254,SubclassOf,gripsack,bag
+255,SubclassOf,overnight case,bag
+256,SubclassOf,valise,overnight case
+257,InstanceOf,Rissole,food
+258,SubclassOf,cabbage roll,stuffed food
+259,SubclassOf,dressing case,baggage
+260,SubclassOf,imperial,baggage
+261,InstanceOf,Waze,product
+262,SubclassOf,laudanum,Opium tincture
+263,InstanceOf,Galloway,geographic region
+264,InstanceOf,Central London,geographic region
+265,SubclassOf,malt,product
+266,SubclassOf,Four Loko,Malt beverage
+267,SubclassOf,Milo,malt
+268,InstanceOf,gift wrapping,product
+269,SubclassOf,cigarette,tobacco product
+270,SubclassOf,cigar,tobacco product
+271,SubclassOf,cheroot,cigar
+272,SubclassOf,tapioca ball,pearl
+273,InstanceOf,chlorella,food
+274,InstanceOf,fish and chips,food
+275,InstanceOf,beef bourguignon,food
+276,InstanceOf,cos lettuce,food
+277,InstanceOf,corn fritter,food
+278,InstanceOf,anise,food
+279,SubclassOf,bullet,projectile
+280,SubclassOf,barmbrack,traditional food
+281,InstanceOf,cranberry,food
+282,InstanceOf,Middle East,geographic region
+283,InstanceOf,Tibet,geographic region
+284,InstanceOf,Scandinavia,geographic region
+285,InstanceOf,strawberry,food
+286,InstanceOf,Northeast,geographic region
+287,InstanceOf,Transylvania,geographic region
+288,InstanceOf,Provence,geographic region
+289,InstanceOf,New World,geographic region
+290,InstanceOf,Northern California,geographic region
+291,SubclassOf,pork sausage,food
+292,SubclassOf,banger,pork sausage
+293,SubclassOf,knockwurst,pork sausage
+294,InstanceOf,Bluegrass Country,geographic region
+295,InstanceOf,filbert,food
+296,InstanceOf,Manuka honey,food
+297,InstanceOf,rolled oats,food
+298,InstanceOf,Glycine max,food
+299,InstanceOf,tzatziki,food
+300,InstanceOf,corned beef,food
+301,InstanceOf,potato,food
+302,InstanceOf,tempeh,food
+303,SubclassOf,quark,food
+304,SubclassOf,pot cheese,quark
+305,InstanceOf,petit four,food
+306,InstanceOf,fufu,food
+307,SubclassOf,profiterole,food
+308,SubclassOf,cream puff,profiterole
+309,SubclassOf,eclair,cream puff
+310,SubclassOf,chocolate eclair,eclair
+311,InstanceOf,Torrid Zone,geographic region
+312,InstanceOf,Sahel,geographic region
+313,InstanceOf,Peloponnese,geographic region
+314,InstanceOf,condensed milk,food
+315,SubclassOf,thyme,food
+316,SubclassOf,Thymus vulgaris,thyme
+317,SubclassOf,wild thyme,thyme
+318,InstanceOf,Old World,geographic region
+319,InstanceOf,Bible Belt,geographic region
+320,InstanceOf,East Anglia,geographic region
+321,SubclassOf,West Indies,geographic region
+322,SubclassOf,British West Indies,West Indies
+323,InstanceOf,Hindustan,geographic region
+324,InstanceOf,Austronesia,geographic region
+325,InstanceOf,gooseberry,food
+326,InstanceOf,Northern America,geographic region
+327,InstanceOf,Dice 10000,tabletop game
+328,InstanceOf,Jenga,tabletop game
+329,InstanceOf,mahjong,tabletop game
+330,InstanceOf,Ariana,geographic region
+331,SubclassOf,hot dog,food
+332,SubclassOf,Vienna sausage,hot dog
+333,SubclassOf,chili dog,hot dog
+334,SubclassOf,cheese,food
+335,InstanceOf,Camembert,cheese
+336,InstanceOf,Ricotta,cheese
+337,InstanceOf,Brie,cheese
+338,InstanceOf,Cheddar,cheese
+339,HasAttribute,Cheddar,hard
+340,SubclassOf,card game,tabletop game
+341,InstanceOf,contract bridge,card game
+342,SubclassOf,paneer,Indian cheese
+343,SubclassOf,nut,food
+344,SubclassOf,pistachio,nut
+345,SubclassOf,kola nut,nut
+346,SubclassOf,meal,food
+347,InstanceOf,baccarat,card game
+348,InstanceOf,Ceviche,meal
+349,InstanceOf,Euchre,card game
+350,SubclassOf,brunch,lunch
+351,SubclassOf,Olivier salad,zakuski
+352,InstanceOf,old maid,card game
+353,InstanceOf,Nepal,geographic region
+354,InstanceOf,South Pole,geographic region
+355,HasAttribute,South Pole,cold
+356,InstanceOf,Limousin,geographic region
+357,InstanceOf,Four Corners,geographic region
+358,InstanceOf,Bohemia,geographic region
+359,InstanceOf,Manchuria,geographic region
+360,InstanceOf,Levant,geographic region
+361,SubclassOf,cassino,card game
+362,SubclassOf,royal cassino,cassino
+363,InstanceOf,Bosnia,geographic region
+364,HasAttribute,Bosnia,Balkan
+365,SubclassOf,spade casino,casino
+366,SubclassOf,shepherd's pie,meal
+367,InstanceOf,Lake District,geographic region
+368,SubclassOf,salad,food
+369,InstanceOf,potato salad,salad
+370,InstanceOf,Tabbouleh,salad
+371,InstanceOf,yam,salad
+372,InstanceOf,chef's salad,salad
+373,InstanceOf,Coats Land,geographic region
+374,SubclassOf,salad nicoise,salad
+375,InstanceOf,Southern California,geographic region
+376,InstanceOf,Spades,card game
+377,SubclassOf,seed,food
+378,InstanceOf,Middle East and North Africa,geographic region
+379,InstanceOf,Asia-Pacific,geographic region
+380,InstanceOf,Enderby Land,geographic region
+381,InstanceOf,Upstate New York,geographic region
+382,SubclassOf,food grain,seed
+383,SubclassOf,barley,food grain
+384,SubclassOf,pearl barley,barley
+385,SubclassOf,cereal,food grain
+386,SubclassOf,ricegrass,cereal
+387,SubclassOf,mountain rice,ricegrass
+388,SubclassOf,smilo,ricegrass
+389,SubclassOf,wheat,cereal
+390,SubclassOf,emmer,wheat
+391,SubclassOf,Triticum aestivum spelta,wheat
+392,SubclassOf,bulghur,wheat
+393,SubclassOf,cracked wheat,wheat
+394,SubclassOf,Secale cereale,cereal
+395,SubclassOf,millet,cereal
+396,InstanceOf,Big Bend,geographic region
+397,SubclassOf,Avena sativa,cereal
+398,SubclassOf,Fagopyrum esculentum,pseudocereal
+399,SubclassOf,Chenopodium quinoa,pseudocereal
+400,SubclassOf,buckwheat,pseudocereal
+401,SubclassOf,chickpea,groat
+402,SubclassOf,semolina,groat
+403,InstanceOf,Serengeti,geographic region
+404,SubclassOf,farina,groat
+405,SubclassOf,legume,food
+406,SubclassOf,chickpea,legume
+407,SubclassOf,peanut,legume
+408,SubclassOf,Cyamopsis tetragonolobus,legume
+409,SubclassOf,soy,legume
+410,SubclassOf,wild pea,legume
+411,SubclassOf,Lathyrus japonicus,wild pea
+412,SubclassOf,pride of California,wild pea
+413,SubclassOf,marsh pea,wild pea
+414,InstanceOf,Gin rummy,card game
+415,SubclassOf,common vetchling,wild pea
+416,SubclassOf,Lalthyrus tingitanus,wild pea
+417,SubclassOf,Lathyrus hirsutus,wild pea
+418,SubclassOf,locoweed,legume
+419,SubclassOf,Oxytropis lambertii,locoweed
+420,SubclassOf,lentil,legume
+421,SubclassOf,bean,legume
+422,SubclassOf,shell bean,bean
+423,SubclassOf,lima bean,shell bean
+424,SubclassOf,tepary bean,shell bean
+425,SubclassOf,English bean,shell bean
+426,SubclassOf,pole bean,bean
+427,SubclassOf,scarlet runner,pole bean
+428,SubclassOf,bush bean,bean
+429,SubclassOf,common bean plant,bush bean
+430,SubclassOf,frijole,common bean plant
+431,SubclassOf,green bean,common bean plant
+432,SubclassOf,haricot,green bean
+433,SubclassOf,wax bean,common bean plant
+434,SubclassOf,royal jelly,food
+435,InstanceOf,Phase 10,card game
+436,InstanceOf,earth,geographic region
+437,InstanceOf,Illyria,geographic region
+438,InstanceOf,Caribbean,geographic region
+439,InstanceOf,Turkistan,geographic region
+440,InstanceOf,PAL region,geographic region
+441,InstanceOf,Micronesia,geographic region
+442,InstanceOf,Cape Fear,geographic region
+443,InstanceOf,Uno,card game
+444,InstanceOf,poker,card game
+445,InstanceOf,Texas hold 'em,card game
+446,InstanceOf,blackjack,card game
+447,InstanceOf,Canasta,card game
+448,InstanceOf,Europe,geographic region
+449,InstanceOf,West Africa,geographic region
+450,SubclassOf,West,geographic region
+451,InstanceOf,Wild West,West
+452,InstanceOf,Rummy,card game
+453,InstanceOf,hanafuda,card game
+454,InstanceOf,bluff,card game
+455,InstanceOf,Faro,card game
+456,InstanceOf,Cribbage,card game
+457,InstanceOf,Mohenjo-daro,Ancient City of Aleppo
+458,InstanceOf,Yu-Gi-Oh! Trading Card Game,deck-building game
+459,InstanceOf,Pokémon Trading Card Game,deck-building game
+460,SubclassOf,patience,card game
+461,InstanceOf,Vampire: The Masquerade,tabletop role-playing game
+462,InstanceOf,Dungeons & Dragons,tabletop role-playing game
+463,SubclassOf,board game,tabletop game
+464,InstanceOf,chess,board game
+465,InstanceOf,backgammon,board game
+466,InstanceOf,Connect Four,board game
+467,InstanceOf,Rummikub,board game
+468,InstanceOf,Snakes and Ladders,board game
+469,InstanceOf,Codenames,board game
+470,InstanceOf,Risk,board game
+471,InstanceOf,Monopoly,board game
+472,InstanceOf,The Settlers of Catan,board game
+473,InstanceOf,cacho,board game
+474,InstanceOf,Cluedo,board game
+475,InstanceOf,Mastermind,board game
+476,InstanceOf,Battleship,board game
+477,InstanceOf,hangman,paper-and-pencil game
+478,InstanceOf,Kamp Koral: SpongeBob's Under Years,spin-off
+479,InstanceOf,Torchwood,Doctor Who spin-offs
