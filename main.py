@@ -64,8 +64,64 @@ def import_data(df: pd.DataFrame):
 
                 )
         
+
+def has_attribute(head: str, attribute: str):
+    query = f"match (e:Entity) where e.name='{head}' and e.attribute='{attribute}' return e"
+    """
+    TODO: this needs to trace back up to check if any of the superclasses have the attribute
+
+    something more like: 
+    
+    MATCH (head:Entity {name: 'Springer'})
+    MATCH (tail:Entity{attribute: 'poisonous'})
+    MATCH path = (head)-[:INSTANCE_OF|SUBCLASS_OF*]->(tail)
+
+    RETURN path is not null AS isInstance
+
+
+    """
+    with GraphDatabase.driver(URI, auth=AUTH) as driver:
+        driver.verify_connectivity()
+        with driver.session() as session:
+            res = session.run(query)
+            if res.values():
+                return True
+            return False
+    
+
+def is_instance(head: str, tail: str):
+    """
+    match (head:Entity{name:'Ginger'}) match (tail:Entity{name:'animal'}) match path=(head)-[:INSTANCE_OF|SUBCLASS_OF*]->(tail) return path
+    """
+    query = f"match (head:Entity{{name:'{head}'}}) match (tail:Entity{{name:'{tail}'}}) match path=(head)-[:INSTANCE_OF|SUBCLASS_OF*]->(tail) return path"
+    with GraphDatabase.driver(URI, auth=AUTH) as driver:
+        driver.verify_connectivity()
+        with driver.session() as session:
+            res = session.run(query)
+            if res.values():
+                return True
+
+
+def is_subclass(head: str, tail: str):
+    """
+    match (head:Entity{name:'pufferfish'}) match (tail:Entity{name:'animal'}) match path=(head)-[:SUBCLASS_OF*]->(tail) return path
+    """
+    query = f"match (head:Entity{{name:'{head}'}}) match (tail:Entity{{name:'{tail}'}}) match path=(head)-[:SUBCLASS_OF*]->(tail) return path"
+    with GraphDatabase.driver(URI, auth=AUTH) as driver:
+        driver.verify_connectivity()
+        with driver.session() as session:
+            res = session.run(query)
+            if res.values():
+                return True
+
         
 if __name__ == "__main__":
-    create_schema()
-    df = read_input_data()
-    import_data(df)
+    # create_schema()
+    # df = read_input_data()
+    # import_data(df)
+    assert has_attribute('hemlock', 'poisonous')
+
+    rr = has_attribute('Springer', 'aquatic')
+    import pdb; pdb.set_trace()
+    assert has_attribute('Springer', 'aquatic')
+    assert not(has_attribute('Springer', 'poisonous'))
